@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kno U Kno</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Kno U Kno</a>
+      <nav aria-label="Main navigation">
+        <a href="#price">Pricing</a>
+        <a href="/login">Log in</a>
+        <a class="button button-small" href="/register">Create account</a>
+      </nav>
+    </header>
+    <main class="hero">
+      <p class="eyebrow">A better way to build your business</p>
+      <h1>Make your next move a <em>well-informed</em> one.</h1>
+      <p class="lede">Create an account to start planning, learn as you grow, and keep your progress in one place.</p>
+      <div class="actions">
+        <a class="button" href="/register">Create your account</a>
+        <a class="button button-secondary" href="/login">Log in</a>
+      </div>
+    </main>
+    <section id="price" class="pricing" aria-labelledby="pricing-title">
+      <p class="eyebrow">Plans</p>
+      <h2 id="pricing-title">Choose the tier that fits your next step.</h2>
+      <p id="pricing-message" class="message" aria-live="polite">Loading available tiers…</p>
+      <div id="public-tier-list" class="public-tier-list"></div>
+    </section>
+    <footer>Thoughtful steps for the business you’re building.</footer>
+    <script src="/pricing.js" defer></script>
+  </body>
+</html>

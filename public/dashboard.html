@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your account | Kno U Kno</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+    <script src="/checkout.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Kno U Kno</a>
+      <nav aria-label="Account navigation">
+        <span id="account-name"></span>
+        <button id="logout-button" class="button button-small button-secondary" type="button">Log out</button>
+      </nav>
+    </header>
+    <main class="content">
+      <p class="eyebrow">Your account</p>
+      <h1>Welcome, <span id="welcome-name">there</span>.</h1>
+      <p id="account-message" class="message" aria-live="polite"></p>
+      <section class="card payment-card" aria-labelledby="payment-title">
+        <h2 id="payment-title">Choose your tier</h2>
+        <p>Each one-time purchase covers one selected tier.</p>
+        <div id="tier-list" class="tier-list"></div>
+        <p id="payment-message" class="message" aria-live="polite"></p>
+        <div id="paypal-button-container"></div>
+      </section>
+    </main>
+  </body>
+</html>

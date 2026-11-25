@@ -1,0 +1,8 @@
+.env
+.git
+node_modules
+coverage
+npm-debug.log*
+Dockerfile*
+docker-compose*
+README.md
